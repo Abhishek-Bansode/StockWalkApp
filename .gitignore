@@ -1,0 +1,66 @@
+# Ignore Gradle files
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle-wrapper/
+**/build/
+**/out/
+
+# Ignore local configuration files
+/local.properties
+*.iml
+.idea/
+.DS_Store
+local.properties
+config.properties
+
+# Ignore Android Studio specific files
+*.apk
+*.ap_
+*.keystore
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/misc.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/androidProfiles.xml
+
+# Ignore OS-generated files
+*.swp
+*.swo
+Thumbs.db
+*.DS_Store
+*.class
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore miscellaneous files
+*.orig
+*.bak
+
+# Ignore generated files
+app/build/
+captures/
+output/
+**/generated/
+.externalNativeBuild
+.cxx
+
+# Ignore signing configurations
+app/src/main/res/raw/signing_configs.json
+
+# Ignore virtual environment files (if any)
+venv/
+__pycache__/
+
+# Ignore database configuration files
+**/*.db
