@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Stock Walk App</string>
+    <string name="enter_stock_symbol">Enter Stock Symbol</string>
+    <string name="stock_walk_app">StockWalk App</string>
+    <string name="search">Search\n</string>
+    <string name="stock_name">Stock Name</string>
+    <string name="stock_price">Stock Price</string>
+    <string name="percentage_change">Percentage Change</string>
 </resources>

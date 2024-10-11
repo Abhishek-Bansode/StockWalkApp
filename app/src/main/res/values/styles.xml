@@ -1,0 +1,92 @@
+<resources>
+    <!-- Base theme -->
+    <style name="Theme.StockWalk" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Customize your theme here -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- App Title Style -->
+    <style name="AppTitleTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <!-- Custom TextInputLayout Style -->
+    <style name="CustomTextInputLayoutStyle">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="hintTextAppearance">@style/CustomHintTextStyle</item>
+    </style>
+
+    <!-- Custom TextInputEditText Style -->
+    <style name="CustomTextInputEditTextStyle">
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Custom Hint Text Style for TextInput -->
+    <style name="CustomHintTextStyle" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <!-- Primary Button Style -->
+    <style name="PrimaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <!-- Stock Information Card Style -->
+    <style name="StockCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Stock Symbol Text Style -->
+    <style name="StockSymbolTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <!-- Stock Name Text Style -->
+    <style name="StockNameTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <!-- Stock Price Text Style -->
+    <style name="StockPriceTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <!-- Stock Percentage Change Text Style -->
+    <style name="StockPercentageChangeTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+</resources>

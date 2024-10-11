@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin/Padding Values -->
+    <dimen name="margin_medium">16dp</dimen>
+
+    <!-- Padding for TextInput and other elements -->
+    <dimen name="edittext_padding">12dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_button">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+</resources>

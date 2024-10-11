@@ -41,7 +41,6 @@ Thumbs.db
 *.temp
 
 # Ignore IntelliJ IDEA project files
-.idea/
 
 # Ignore miscellaneous files
 *.orig
